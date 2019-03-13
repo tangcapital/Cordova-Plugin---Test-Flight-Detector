@@ -1,3 +1,7 @@
+# Our version of Arcticus/Cordova-Plugin---Test-Flight-Detector
+Forked version
+
+# Original README:
 <!---
     Licensed to the Apache Software Foundation (ASF) under one
     or more contributor license agreements.  See the NOTICE file
@@ -22,7 +26,7 @@ Cordova TestFlight Detector Plugin
 
 ## Plugin's Purpose
 
-The purpose of the plugin is to create a method for [Cordova](https://cordova.apache.org/) based iOS applications to determine at runtime whether an application was installed via the Apple App Store or as a beta app via [TestFlight](https://developer.apple.com/testflight/) or launched from XCode to an attached USB device or iOS Simulator.  This allows a developer to use a single build and exercise separate code for testing versus production. 
+The purpose of the plugin is to create a method for [Cordova](https://cordova.apache.org/) based iOS applications to determine at runtime whether an application was installed via the Apple App Store or as a beta app via [TestFlight](https://developer.apple.com/testflight/) or launched from XCode to an attached USB device or iOS Simulator.  This allows a developer to use a single build and exercise separate code for testing versus production.
 
 ## com.gosyntactix.cordova.testflightdetector
 
@@ -53,21 +57,25 @@ Returns **<u>true</u>** if the app was installed via TestFlight or launched from
 - iOS
 
 #### Quick Example
-   
+
     if (TFDetect.isTFXC) {
-    	//DEBUG CODE HERE    } else {
-    	//PRODUCTION CODE HERE    }
+    	//DEBUG CODE HERE
+    } else {
+    	//PRODUCTION CODE HERE
+    }
 
 ### TFDetect.isAppStore
 
-Returns **<u>true</u>** if the app was installed via the Apple App Store.  Returns **<u>false</u>** if the app was installed via TestFlight or launched from XCode to an attached USB device or iOS Simulator. 
+Returns **<u>true</u>** if the app was installed via the Apple App Store.  Returns **<u>false</u>** if the app was installed via TestFlight or launched from XCode to an attached USB device or iOS Simulator.
 
 #### Supported Platforms
 
 - iOS
 
 #### Quick Example
-   
+
     if (TFDetect.isAppStore) {
-    	//PRODUCTION CODE HERE    } else {
-    	//DEBUG CODE HERE    }
+    	//PRODUCTION CODE HERE
+    } else {
+    	//DEBUG CODE HERE
+    }

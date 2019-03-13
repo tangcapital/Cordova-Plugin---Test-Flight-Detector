@@ -1,11 +1,11 @@
 {
     "version": "0.1.2-dev",
-    "name": "com.gosyntactix.cordova.testflightdetector",
+    "name": "cordova-plugin-test-flight-detector",
     "cordova_name": "TestFlight Detector",
     "description": "Detects if app was installed via TestFlight vs. Apple App Store",
     "license": "Apache 2.0",
-    "repo": "https://github.com/Arcticus/Cordova-Plugin---Test-Flight-Detector.git",
-    "issue": "https://github.com/Arcticus/Cordova-Plugin---Test-Flight-Detector/issues",
+    "repo": "https://github.com/tangcapital/cordova-plugin-test-flight-detector.git",
+    "issue": "https://github.com/tangcapital/cordova-plugin-test-flight-detector/issues",
     "keywords": [
         "cordova",
         "testflight"
